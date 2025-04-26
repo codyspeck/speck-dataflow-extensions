@@ -11,6 +11,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5C3C44AD-3
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speck.DataflowExtensions.UnitTests", "test\Speck.DataflowExtensions.UnitTests\Speck.DataflowExtensions.UnitTests.csproj", "{2AA25244-26BB-4D62-A1BA-4F75AC38E37A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "root", "root", "{945E23B1-CFFC-4391-B9A5-CBCA3658AABC}"
+	ProjectSection(SolutionItems) = preProject
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
