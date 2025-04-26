@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{242D0C6E-D9DA-423F-BD84-07D42F1A149C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speck.DataflowExtensions", "src\Speck.DataflowExtensions\Speck.DataflowExtensions.csproj", "{3D3B1A4F-0DDB-444F-A671-06452B8700C6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{5C3C44AD-3EEF-4BCF-AAFA-EB434C117BDF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Speck.DataflowExtensions.UnitTests", "test\Speck.DataflowExtensions.UnitTests\Speck.DataflowExtensions.UnitTests.csproj", "{2AA25244-26BB-4D62-A1BA-4F75AC38E37A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D3B1A4F-0DDB-444F-A671-06452B8700C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D3B1A4F-0DDB-444F-A671-06452B8700C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D3B1A4F-0DDB-444F-A671-06452B8700C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D3B1A4F-0DDB-444F-A671-06452B8700C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2AA25244-26BB-4D62-A1BA-4F75AC38E37A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2AA25244-26BB-4D62-A1BA-4F75AC38E37A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2AA25244-26BB-4D62-A1BA-4F75AC38E37A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2AA25244-26BB-4D62-A1BA-4F75AC38E37A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3D3B1A4F-0DDB-444F-A671-06452B8700C6} = {242D0C6E-D9DA-423F-BD84-07D42F1A149C}
+		{2AA25244-26BB-4D62-A1BA-4F75AC38E37A} = {5C3C44AD-3EEF-4BCF-AAFA-EB434C117BDF}
+	EndGlobalSection
+EndGlobal
